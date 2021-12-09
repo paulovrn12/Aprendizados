@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+body {
+    background-color: #80D39B;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#principal {
+    text-align: center;
+    font-size: 3em;
+    background-color: cadetblue;
+}
+
+.aprendendo {
+    color: #8B1E3F;
+}
+
+.basico {
+    color: #067DF5;
+}
+
+.intermediario {
+    color: #DEF51D;
+}
+
+.avancado {
+    color: #F52B1D;
+}
+
+p {
+    text-align: justify;
+    text-indent: 10px;
+}

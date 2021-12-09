@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.prim {
+    display: inline-block;
+    background-color: #f66e66;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+}
+
+.segu {
+    display: inline-block;
+    background-color: #9de52c;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+}
+
+.terc {
+    display: inline-block;
+    background-color: #fef547;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+}
+
+div:hover {
+    background-color: #5d9999
+}

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+h1 {
+    background-color: lightgray;
+    height: 300px;
+    width: 300px;
+    display: block;
+    text-align: center;
+    /*bordas*/
+    border: 10px solid #974182;
+    /*padding*/
+    padding: auto 10px;
+    /*margin*/
+    margin: 20px auto 10px auto;
+    /*outline*/
+    outline: 5px dotted darkturquoise;
+}

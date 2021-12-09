@@ -1,0 +1,18 @@
+{
+    "sync.quietSync": true,
+    "sync.autoUpload": true,
+    "sync.autoDownload": true,
+    "cSpell.ignoreWords": [
+        "apresent",
+        "centi",
+        "lista",
+        "milim",
+        "rfind",
+        "souza"
+    ],
+    "cSpell.words": [
+        "armazen",
+        "armazená",
+        "esperado"
+    ]
+}

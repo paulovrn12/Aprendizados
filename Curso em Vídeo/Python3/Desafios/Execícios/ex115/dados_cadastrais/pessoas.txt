@@ -1,0 +1,3 @@
+Nome: Paulo Victor, Idade: 22
+Nome: Irinel, Idade: 37
+Nome: Serjão Berranteiro, Idade: 35

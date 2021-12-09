@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    <p>Aumente ou diminua o tamanho da janela!</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Grande">
+        <p>Vamos aprender a reproduzir audios em mp3</p>
+        <audio preload="metadata" controls>
+            <source src="midia/audio001.mp3" type="audio/mpeg">
+            <source src="midia/audio001.ogg" type="audio/ogg">
+            <p>Infelismente seu navegador foi incapaz de reproduzir esse audio!</p>
+            <p>Lembrando que esse áudio é gratuito e está disponível no YouTube Studio!</p>
+            <p>Baixe <a href="midia/audio001.mp3">aqui</a> o audio e MP3</p>
+
+            
+        </audio>
+
+    </picture>
+</body>
+</html>

@@ -1,0 +1,20 @@
+# Crie um pequeno sistema modularizado que permita cadastrar pessoas pelo seu nome e idade
+# em um arquivo de texto simples.
+
+# O sistema só vai ter 2 opções: cadastrar uma nova pessoa e listar todas as pessoas cadastradas.
+
+# Divisões:
+# Criação do Menu
+# Manipulação de arquivos
+# Finalização do projeto
+
+# Passos a serem seguidos pela a minha aplicação:
+# 1. Exibir um menu de opções do usuário.
+# 2. Baseado na opção do usuário:
+# 2.1. Se for a opção cadastrar uma nova pessoa:
+# 2.1.a. verificar se o arquivo txt existe, se não, crie-o.
+# 2.1.b. não ouver pessoas cadastradas, cadastre-a usando o parâmetro 'w' na função open().
+# 2.1.c. se houver cadastros, cadastre-a usando o parâmetro 'a' na função open() e usando um '\n' no início do texto do arquivo.
+# 2.2. Se for a opção listar pessoas cadastradas:
+# 2.1.a. exibir o arquivo txt na tela como texto único usando o 'r' na função open() e abaixo usando o método .read().
+# 3. A cada repetição de ação, perguntar ao usuário se ele deseja adicionar mais pessoas ou visualizar a lista novamente, se não, feche o programa.
